@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T21:22:27.224Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.714 YaBrowser/23.11.1.714 Yowser/2.5 Safari/537.36" etag="wwd8DW7F40kglPASWfLH" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T21:26:54.366Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.714 YaBrowser/23.11.1.714 Yowser/2.5 Safari/537.36" etag="D6OvgfPsWtpgVP4SZF9e" version="22.1.21" type="github">
   <diagram name="Страница — 1" id="bJoPLygFJOJP_rjStDM6">
     <mxGraphModel dx="1971" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,9 +25,6 @@
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-27" value="Zabbix app" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
           <mxGeometry x="-580" y="340" width="102.94" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-29" value="Static File get From Web app" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
-          <mxGeometry x="-491.06" y="-350" width="188" height="313.33" as="geometry" />
-        </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-31" value="Container Doscker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-620" y="80" width="120" height="30" as="geometry" />
         </mxCell>
@@ -44,7 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-35" value="Web Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="-149.99" width="120" height="69.99" as="geometry" />
+          <mxGeometry x="-440" y="-150" width="122.94" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-35" target="Rf2RZT0Yp-3sF4Ba2RFu-21">
           <mxGeometry relative="1" as="geometry">
@@ -55,7 +52,7 @@
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-42" value="CTS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rf2RZT0Yp-3sF4Ba2RFu-40">
           <mxGeometry x="0.1972" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-27" target="Rf2RZT0Yp-3sF4Ba2RFu-21">
@@ -68,7 +65,7 @@
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-49" value="Уведомления о событие" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rf2RZT0Yp-3sF4Ba2RFu-45">
           <mxGeometry x="-0.0558" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-21" target="Rf2RZT0Yp-3sF4Ba2RFu-27">
@@ -81,7 +78,18 @@
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-48" value="Получить&amp;nbsp; детали назначенных триггеров&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rf2RZT0Yp-3sF4Ba2RFu-47">
           <mxGeometry x="-0.0455" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="4" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-29" value="Static File get From Web app" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="-402.53" y="-260" width="48" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-21" target="Rf2RZT0Yp-3sF4Ba2RFu-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-710" y="190" />
+              <mxPoint x="-710" y="525" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
