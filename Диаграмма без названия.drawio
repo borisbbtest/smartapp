@@ -1,16 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T21:27:44.163Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.714 YaBrowser/23.11.1.714 Yowser/2.5 Safari/537.36" etag="uAy3lQ486wPRuom8Tm0d" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T21:31:20.934Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.714 YaBrowser/23.11.1.714 Yowser/2.5 Safari/537.36" etag="gXDfEZLQRroqo2v2QWTJ" version="22.1.21" type="github">
   <diagram name="Страница — 1" id="bJoPLygFJOJP_rjStDM6">
     <mxGraphModel dx="1971" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-35" value="Express: Web Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-150" width="122.94" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-29" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-220" width="48" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-620" y="80" width="460" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-20" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-21" value="Container: Backend (django)&amp;nbsp;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-21" value="Container: Backend (Django Rest)&amp;nbsp;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
           <mxGeometry x="-570" y="130" width="102.94" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-22" value="Zabbix БД" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
@@ -37,11 +43,8 @@
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-39" value="CTS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rf2RZT0Yp-3sF4Ba2RFu-37">
           <mxGeometry x="0.2173" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-26" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-35" value="Web Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="-150" width="122.94" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-35" target="Rf2RZT0Yp-3sF4Ba2RFu-21">
           <mxGeometry relative="1" as="geometry">
@@ -81,9 +84,6 @@
             <mxPoint x="4" y="25" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-29" value="Static File get From Web app" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
-          <mxGeometry x="-402.53" y="-260" width="48" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-21" target="Rf2RZT0Yp-3sF4Ba2RFu-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -96,6 +96,15 @@
           <mxGeometry x="-0.464" y="2" relative="1" as="geometry">
             <mxPoint x="8" y="211" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-54" value="Инфраструктура лаборатории&amp;nbsp;&amp;nbsp;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-624" y="610" width="239" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-22" target="Rf2RZT0Yp-3sF4Ba2RFu-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rf2RZT0Yp-3sF4Ba2RFu-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.99;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rf2RZT0Yp-3sF4Ba2RFu-29" target="Rf2RZT0Yp-3sF4Ba2RFu-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
